@@ -2,7 +2,7 @@ set nocompatible              " required
 filetype off                  " required
 
 set encoding=utf-8
-set nu
+"set nu
 
 highlight BadWhitespace ctermbg=red guibg=red
 
