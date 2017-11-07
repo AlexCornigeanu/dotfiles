@@ -2,7 +2,7 @@ set nocompatible              " required
 filetype off                  " required
 
 set encoding=utf-8
-"set nu
+filetype plugin on
 
 highlight BadWhitespace ctermbg=red guibg=red
 
@@ -63,6 +63,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'nvie/vim-flake8'
 
 
